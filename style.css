@@ -1,0 +1,30 @@
+body{
+    border: 10px;
+}
+.header,.middle,.footer{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+}
+.header{
+    background-color: darkblue;
+    color: white;
+}
+.middle{
+    background-color: grey;
+}
+.footer{
+    background-color: lightblue;
+}
+.h-top, .h-content, .m-info, .m-images{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

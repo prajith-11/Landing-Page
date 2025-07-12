@@ -9,8 +9,11 @@ body{
     justify-content: space-around;
 }
 .header{
-    background-color: darkblue;
+    font-family: 'Roboto';
+    background-color: #1F2937;
     color: white;
+    padding: 0 40px 40px;
+    gap: 40px;
 }
 .middle{
     background-color: grey;
@@ -21,10 +24,52 @@ body{
 .h-top, .h-content, .m-info, .m-images{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    /* padding: 10px; */
+    gap: 20px;
+}
+.h-top{
+    padding:10px;
+}
+.h-left{
+    font-size: 24px;
+    font-weight: 500;
+    color: #F9FAF8;
+}
+.h-right{
+    display: flex;
     gap: 20px;
 }
 a{
     text-decoration: none;
     color: white;
+}
+img{
+    background: darkgray;
+    /* width: 200px; */
+    height: 250px;
+    background-color: grey;
+}
+.h-para{
+    font-size: 18px;
+    width: 490px;
+    color: #E7E5EB;
+}
+.h-heading{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.h-content{
+    /* justify-content: center; */
+    align-items: center;
+    padding: 80px;
+}
+button{
+    margin: 10px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
 }

@@ -8,18 +8,13 @@ body{
     gap: 20px;
     justify-content: space-around;
 }
+/* Header Section styling */
 .header{
     font-family: 'Roboto';
     background-color: #1F2937;
     color: white;
     padding: 0 40px 40px;
     gap: 40px;
-}
-.middle{
-    background-color: grey;
-}
-.footer{
-    background-color: lightblue;
 }
 .h-top, .h-content, .m-info, .m-images{
     display: flex;
@@ -43,7 +38,7 @@ a{
     text-decoration: none;
     color: white;
 }
-img{
+.h-img{
     background: darkgray;
     /* width: 200px; */
     height: 250px;
@@ -72,4 +67,35 @@ button{
     height: 30px;
     width: 80px;
     border-radius: 20px;
+}
+/* Middle Section Styling */
+.middle{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 100px;
+    justify-content: space-evenly;
+}
+.m-info{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.m-img{
+    height: 200px;
+    width: 250px;
+    border: 2px solid rgb(62, 177, 223);
+    border-radius: 10px;
+}
+.image_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+/* Footer Section Styling */
+.footer{
+    background-color: lightblue;
 }

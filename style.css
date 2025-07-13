@@ -95,7 +95,52 @@ button{
     align-items: center;
     gap: 20px;
 }
+/* Quotation section */
+.quotation{
+    background-color: #E5E7EB;
+    /* height: 200px; */
+    color: #1F2937;
+    padding: 90px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+.author{
+    padding: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: end;
+}
 /* Footer Section Styling */
 .footer{
-    background-color: lightblue;
+    background-color: blue;
+    margin: 80px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+}
+.f-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.f-button{
+    border-radius: 0px;
+    border: 1px solid ;
+}
+/* Post Credits -- The Odin Project */
+.credits{
+    background-color: #1F2937;
+    display: flex;
+    color: white;
+    align-self: flex-end;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
 }
